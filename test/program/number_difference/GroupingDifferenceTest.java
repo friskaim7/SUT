@@ -1,8 +1,7 @@
-package program.NumberDifference;
+package program.number_difference;
 
 import static org.junit.Assert.assertEquals;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 import org.junit.Test;
