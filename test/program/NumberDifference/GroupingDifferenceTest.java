@@ -108,7 +108,7 @@ public class GroupingDifferenceTest extends NumberDifferenceTest {
     public void testDifferenceResultNoGroup_01() {
         // (1) setup (arrange, build)
         int diff = 0;// tidak termasuk ke dalam group manapun
-        String actual, expected = "Non group, There's no difference";
+        String actual, expected = "Difference : " + diff + "\nNon group, There's no difference";
 
         // (2) exercise (act, operate)
         actual = sut.groupingDifference(diff);
@@ -121,7 +121,7 @@ public class GroupingDifferenceTest extends NumberDifferenceTest {
     public void testDifferenceResultNoGroup_02() {
         // (1) setup (arrange, build)
         int diff = 0;// tidak termasuk ke dalam group manapun
-        String actual, expected = "Non group, There's no difference";
+        String actual, expected = "Difference : " + diff + "\nNon group, There's no difference";
 
         // (2) exercise (act, operate)
         actual = sut.groupingDifference(diff);
