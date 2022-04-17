@@ -1,5 +1,5 @@
 package program.NumberDifference;
 
-public class ValidateRangeInputMaxDeretTest {
+public class ValidateRangeInputMaxDeretTest extends NumberDifferenceTest{
     
 }

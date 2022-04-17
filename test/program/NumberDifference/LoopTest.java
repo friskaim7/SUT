@@ -1,5 +1,5 @@
 package program.NumberDifference;
 
-public class LoopTest {
+public class LoopTest extends NumberDifferenceTest{
     
 }
