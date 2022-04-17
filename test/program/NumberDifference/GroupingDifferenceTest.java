@@ -104,4 +104,30 @@ public class GroupingDifferenceTest extends NumberDifferenceTest {
         assertEquals(expected, actual);
     }
 
+    @Test // TC13
+    public void testDifferenceResultNoGroup_01() {
+        // (1) setup (arrange, build)
+        int diff = 0;// tidak termasuk ke dalam group manapun
+        String actual, expected = "Non group, There's no difference";
+
+        // (2) exercise (act, operate)
+        actual = sut.groupingDifference(diff);
+
+        // (3) verify (assert, check)
+        assertEquals(expected, actual);
+    }
+
+    @Test // TC14
+    public void testDifferenceResultNoGroup_02() {
+        // (1) setup (arrange, build)
+        int diff = 0;// tidak termasuk ke dalam group manapun
+        String actual, expected = "Non group, There's no difference";
+
+        // (2) exercise (act, operate)
+        actual = sut.groupingDifference(diff);
+
+        // (3) verify (assert, check)
+        assertEquals(expected, actual);
+    }
+
 }
