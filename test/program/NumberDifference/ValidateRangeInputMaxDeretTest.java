@@ -10,7 +10,7 @@ public class ValidateRangeInputMaxDeretTest extends NumberDifferenceTest{
 		int jumlahDeretBil;
 		boolean actual, expected;
 		jumlahDeretBil = 0; // berada di bawah range
-		expected = true;
+		expected = false;
 
 		// (2) exercise (act, operate)
 		actual = sut.validateRangeInputMaxDeret(jumlahDeretBil);
@@ -25,7 +25,7 @@ public class ValidateRangeInputMaxDeretTest extends NumberDifferenceTest{
 		int jumlahDeretBil;
 		boolean actual, expected;
 		jumlahDeretBil = 11; // berada di atas range
-		expected = true;
+		expected = false;
 
 		// (2) exercise (act, operate)
 		actual = sut.validateRangeInputMaxDeret(jumlahDeretBil);
