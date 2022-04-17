@@ -4,13 +4,13 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class GroupingDifferenceTest extends NumberDifferenceTest{
+public class GroupingDifferenceTest extends NumberDifferenceTest {
 
-    @Test
-    public void testDifferenceResultInGroup1_02() {
+    @Test // TC8
+    public void testDifferenceResultInGroup2() {
         // (1) setup (arrange, build)
-        int diff = 1;
-        String actual, expected = "Difference : 1\nGroup 1, Small Difference";       
+        int diff = 25;
+        String actual, expected = "Difference : " + diff + "\nGroup 2, Medium Difference";
 
         // (2) exercise (act, operate)
         actual = sut.groupingDifference(diff);
