@@ -3,6 +3,7 @@ package program.NumberDifference;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+import java.util.ArrayList;
 
 public class GroupingDifferenceTest extends NumberDifferenceTest {
 
