@@ -36,9 +36,9 @@ public class CalcNUmberDifference {
 		message = "Difference : " + diff; 
 		if(diff>50) {
 			group = 3;
-		}else if(diff>=11 && diff<50) { 
+		}else if(diff>=11 && diff<=50) { 
 			group = 2;
-		}else if(diff>=1 && diff<10){ 
+		}else if(diff>=1 && diff<=10){ 
 			group = 1;
 		}else {
 			group = 0;
@@ -47,7 +47,7 @@ public class CalcNUmberDifference {
 		if(group>0){
 			message = message + "\nGroup " + group + ", ";
 		}else{
-			message = message + "\nNon group ";
+			message = message + "\nNon group, ";
 		}
 		
 		switch(group) {
@@ -64,7 +64,7 @@ public class CalcNUmberDifference {
 	// mengembalikan true, jika nilai N sesuai dengan range
 	// // sebaliknya mengembalikan false
 	public boolean validateRangeInputMaxDeret(int nBil) {
-		if(nBil>=1 || nBil<=10) { 
+		if(nBil>=1 && nBil<=10) { 
 			return true;
 		}else {
 			return false;
